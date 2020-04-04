@@ -1,10 +1,90 @@
 /* navbar design start */
+.custom-nav{
+    background-color: #fcdb00;
+    padding-top: 30px;
+}
 .nav-menu li a{
     color: black;
     font-weight: 600;
     font-size: 22px;
 }
 /* navbar design end */
+
+/* header design start */
+.header{
+    background-color: #fcdb00;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.carousel-item-details{
+    padding-left: 250px;
+}
+
+.carousal-logo ol li i{
+    font-size: 42px;
+    padding-right: 20px;
+}
+
+.carousel-img{
+    padding-left: 220px;
+}
+@media(max-width:1200px){
+    .carousel-item-details{
+        padding-left: 30%;
+    }
+    .carousel-img img{
+        display: inline-block;
+        width: 200px;
+    }
+}
+
+@media(max-width:992px){
+    .carousel-item-details{
+        padding-left: 30%;
+    }
+    .carousel-img{
+        padding-left: 80px;
+    }
+    .carousel-img img{
+        display: inline-block;
+        width: 70%;
+    }
+}
+
+@media(max-width:768px){
+    .carousel-item-details{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .carousel-img{
+        padding-left: 35%;
+        padding-top: 20px;
+    }
+    .carousel-img img{
+        display: inline-block;
+        width: 55%;
+    }
+
+}
+
+@media(max-width:576px){
+    .header{
+        padding-top: 0;
+    }
+    .carousel-item-details{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .carousel-img{
+        padding-left: 30%;
+        padding-right: 20%;
+    }
+    .carousel-img img{
+        width: 75%;
+    }
+}
+/* header design start */
 
 .features{
 
