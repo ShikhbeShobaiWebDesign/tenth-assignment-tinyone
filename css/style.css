@@ -1,3 +1,11 @@
+/* navbar design start */
+.nav-menu li a{
+    color: black;
+    font-weight: 600;
+    font-size: 22px;
+}
+/* navbar design end */
+
 .features{
 
     padding-top: 120px;
@@ -159,5 +167,9 @@ color: #fcdb00;
 .menu-part ol li{
     
 list-style: none;
+}
+
+.menu-part ol li a{
+    color: white;
 }
 /* footer design end */
