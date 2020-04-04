@@ -1,0 +1,163 @@
+.features{
+
+    padding-top: 120px;
+    
+    padding-bottom: 160px;
+    }
+    
+    .features-header{
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+    }
+    
+    .features-header h1{
+        margin-bottom: 0;
+        font-size: 32px;
+    }
+    
+    .features-header p{
+        margin-bottom: 0;
+        font-size: 20px;
+        padding-top: 22px;
+    }
+    
+    .feature{
+
+padding-bottom: 90px;
+
+padding-top: 90px;
+
+}
+    
+.feature-header{
+
+}
+
+.feature-header ol li i{
+    font-size: 50px;
+    display: inline-block;
+    width: 80px;
+}
+
+.feature-header ol li h3{
+    margin-bottom: 0;
+    font-size: 22px;
+}
+
+.feature-content{
+
+}
+
+.logo-gap{display: block !important;}
+
+.feature-content p{
+    margin-bottom: 0;
+    font-size: 16px;
+    text-align: justify;
+    padding-right: 60px;
+    padding-left: 80px;
+}
+
+/* footer design start */
+footer{
+
+padding-bottom: 140px;
+
+padding-top: 90px;
+
+color: white;
+
+background-color: black;
+}
+
+.footer-header{
+
+text-align: center;
+}
+
+.footer-header h2{
+
+margin-bottom: 0;
+
+font-size: 32px;
+}
+
+.footer-header p{
+
+margin-bottom: 0;
+
+padding-bottom: 40px;
+
+padding-top: 20px;
+
+font-size: 20px;
+}
+
+.footer-form{width: 100%;max-width: 100%;}
+
+.footer-form-email{
+    width: 580px;
+    margin-bottom: 0;
+    padding-right: 20px;
+}
+
+@media(max-width: 765px){
+    .footer-form-email{
+        width: 400px;
+        padding-right: 20px;
+    }
+}
+
+@media(max-width: 600px){
+    .footer-form-email{
+        width: 300px;
+        padding-right: 20px;
+    }
+}
+
+.footer-form-submit{
+    background-color: #fcdb00;
+    color: #010101;
+    font-weight: 600;
+}
+
+.footer-social-icon{display: block;padding-bottom: 130px;padding-top: 80px;}
+
+.footer-social-icon ol{}
+
+.footer-social-icon ol li{
+
+text-align: center;
+}
+
+.footer-social-icon ol li i{
+
+font-size: 42px;
+
+padding-left: 16px;
+
+padding-right: 16px;
+
+color: #fcdb00;
+}
+
+.menu-part{
+
+}
+
+@media(max-width: 767px){
+    .menu-part{
+        text-align: center;
+    }
+}
+
+.menu-part ol{
+    padding-left: 0;
+}
+
+.menu-part ol li{
+    
+list-style: none;
+}
+/* footer design end */
